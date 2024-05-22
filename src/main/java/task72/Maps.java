@@ -1,9 +1,5 @@
 package task72;
 import java.util.*;
-import java.util.stream.Collectors;
-
-//import java.util.HashMap;
-//import java.util.Map;
 
 public class Maps {
     public static void main(String[] args) {

@@ -14,12 +14,12 @@ public class t6 {
             array.add(a + (int) (Math.random() * (b + 1)));
         }
 
-        System.out.println("Максимальное значение = " + max_num(array, len) + " находится в элементе под индексом "
-                + arr_max_index(array, max_num(array, len), len));
+        System.out.println("Максимальное значение = " + max_num(array) + " находится в элементе под индексом "
+                + arr_max_index(array, max_num(array), len));
         System.out.print("Среднее значение = " + average_value(array, len));
 
     }
-    static int max_num(List<Integer> arr, int len){
+    static int max_num(List<Integer> arr){
         int max = 0;
 
         for (int i: arr){
